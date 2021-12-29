@@ -170,5 +170,5 @@
             IsPasswordValid() method-uzunluq 8-25, siferenin icinde en az bir symbol,1 uppurcase letter ve en az bir digit istifade olunmalidir yoxlanisi console readlinedan aldiginiz datani bu methodlarda yoxlayib sonra yeni obyekte menimsedeceksiz...
 
             1.Constructorda name ve password qebul edilsin
-    ``` 
+    ```  
     - [Solution](https://github.com/RaviHamidov/PragmatechCsharpProject/tree/main/06_Lesson)  
