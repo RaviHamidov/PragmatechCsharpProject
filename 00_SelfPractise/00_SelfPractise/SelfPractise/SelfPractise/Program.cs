@@ -10,8 +10,77 @@ namespace SelfPractise
     {
         static void Main(string[] args)
         {
-            #region ForLoopPractise
+            #region IfElseStatementPractise
+            /*oz ozume task olsun if else ile 10 qeder reqem , 10 ve 20 arasi reqem ve 20 den boyuk reqem daxil edende bize daxil olunan reqem haqqinda info veren program*/
+            /*int n;
+            Console.WriteLine("Demeli 0 dan 100 e qeder eded daxil edin .");
+            n = int.Parse(Console.ReadLine());
+            if (n < 10)
+            {
+                Console.WriteLine("10 dan kicikdir");
+            }
+            else if (n > 10 & n < 20)
+            {
+                Console.WriteLine(" 10 ve 20 arasindadir");
+            }
+            else
+            {
+                Console.WriteLine("20den boyukdur");
+            }*/
+            #endregion
+            #region SwitchStatementPractise
+            /*switch la practise demeli user dan reqem sorus eger 42 yazsa yazsin ki senden yoxdu ama basqa reqem yazsa desin ki agilli ol*/
+            /*int x;
+            Console.WriteLine("0 dan 10 e qeder eded daxil edin ");
+            x = int.Parse(Console.ReadLine());
+            switch (x)
+            {
+                case 5:
+                    Console.WriteLine("reqem 5 dir");
+                    break;
+                case 6:
+                    Console.WriteLine("reqem 6 dir");
+                    break;
+                default:
+                    Console.WriteLine("yoe qeqes o del");
+                    break;
+            }*/
 
+            /*int z;
+            Console.WriteLine(" odd or even pls check");
+            z = int.Parse(Console.ReadLine());
+            switch (z % 2)
+            {
+                case 0:
+                    Console.WriteLine($"is {z} even value");
+                    break;
+                case 1:
+                    Console.WriteLine($"is {z} odd value");
+                    break ;
+            }*/
+
+            /*Console.WriteLine("Wriite switch:");
+            string statement = Console.ReadLine();
+            switch (statement)
+            {
+                case "if else":
+                    Console.WriteLine("This is not a switch");
+                    break;
+                case "switch":
+                    Console.WriteLine("This is a switch");
+                    break;
+                case "memmedeli":
+                    Console.WriteLine("This is not a switch");
+                    break;
+                default:
+                    Console.WriteLine("This is not a switch");
+                    break;
+            }*/
+
+
+            Console.ReadKey();
+            #endregion
+            #region ForLoopPractise
             /*for (initializer; condition; iterator)
             {
                 // code block
@@ -78,12 +147,12 @@ namespace SelfPractise
             /*for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine("Result is a: {0}",i);
-            }*/
-            string a = "memmed";
-            Console.WriteLine($"Salam {a}");
+            }
 
-            Console.ReadKey();  
+
+            Console.ReadKey();*/
             #endregion
         }
     }
+
 }
