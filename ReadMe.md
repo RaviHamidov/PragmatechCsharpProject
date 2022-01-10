@@ -171,4 +171,4 @@
 
             1.Constructorda name ve password qebul edilsin
     ```
-    - [Solution](https://github.com/RaviHamidov/PragmatechCsharpProject/tree/main/06_Lesson) 
+    - [Solution](https://github.com/RaviHamidov/PragmatechCsharpProject/tree/main/06_Lesson)
