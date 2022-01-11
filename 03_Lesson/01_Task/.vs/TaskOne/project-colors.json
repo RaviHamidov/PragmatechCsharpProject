@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3c8ff8af-29e3-4e00-9b79-eac6cf596bce": {
+      "ProjectGuid": "3c8ff8af-29e3-4e00-9b79-eac6cf596bce",
+      "DisplayName": "TaskOne",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

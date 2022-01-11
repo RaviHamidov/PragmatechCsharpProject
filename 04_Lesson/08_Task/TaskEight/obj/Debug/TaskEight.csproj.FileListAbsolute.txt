@@ -1,0 +1,8 @@
+C:\Users\Code\Desktop\PragmatechCsharpProject\04_Lesson\08_Task\TaskEight\bin\Debug\TaskEight.exe.config
+C:\Users\Code\Desktop\PragmatechCsharpProject\04_Lesson\08_Task\TaskEight\bin\Debug\TaskEight.exe
+C:\Users\Code\Desktop\PragmatechCsharpProject\04_Lesson\08_Task\TaskEight\bin\Debug\TaskEight.pdb
+C:\Users\Code\Desktop\PragmatechCsharpProject\04_Lesson\08_Task\TaskEight\obj\Debug\TaskEight.csproj.AssemblyReference.cache
+C:\Users\Code\Desktop\PragmatechCsharpProject\04_Lesson\08_Task\TaskEight\obj\Debug\TaskEight.csproj.SuggestedBindingRedirects.cache
+C:\Users\Code\Desktop\PragmatechCsharpProject\04_Lesson\08_Task\TaskEight\obj\Debug\TaskEight.csproj.CoreCompileInputs.cache
+C:\Users\Code\Desktop\PragmatechCsharpProject\04_Lesson\08_Task\TaskEight\obj\Debug\TaskEight.exe
+C:\Users\Code\Desktop\PragmatechCsharpProject\04_Lesson\08_Task\TaskEight\obj\Debug\TaskEight.pdb

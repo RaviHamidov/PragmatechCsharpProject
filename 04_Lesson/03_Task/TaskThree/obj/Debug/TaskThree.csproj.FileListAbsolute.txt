@@ -1,0 +1,8 @@
+C:\Users\Code\Desktop\PragmatechCsharpProject\04_Lesson\03_Task\TaskThree\obj\Debug\TaskThree.csproj.AssemblyReference.cache
+C:\Users\Code\Desktop\PragmatechCsharpProject\04_Lesson\03_Task\TaskThree\obj\Debug\TaskThree.csproj.SuggestedBindingRedirects.cache
+C:\Users\Code\Desktop\PragmatechCsharpProject\04_Lesson\03_Task\TaskThree\obj\Debug\TaskThree.csproj.CoreCompileInputs.cache
+C:\Users\Code\Desktop\PragmatechCsharpProject\04_Lesson\03_Task\TaskThree\bin\Debug\TaskThree.exe.config
+C:\Users\Code\Desktop\PragmatechCsharpProject\04_Lesson\03_Task\TaskThree\bin\Debug\TaskThree.exe
+C:\Users\Code\Desktop\PragmatechCsharpProject\04_Lesson\03_Task\TaskThree\bin\Debug\TaskThree.pdb
+C:\Users\Code\Desktop\PragmatechCsharpProject\04_Lesson\03_Task\TaskThree\obj\Debug\TaskThree.exe
+C:\Users\Code\Desktop\PragmatechCsharpProject\04_Lesson\03_Task\TaskThree\obj\Debug\TaskThree.pdb
