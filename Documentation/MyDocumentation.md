@@ -145,6 +145,7 @@ data is stored. You will learn more about the differences between value types an
 types in Future ;)
 
 `#KeepNote_04 | Commonly used built-in data types in C#`
+
 `#KeepNote_05 | The unsigned versions of short, int, and long are ushort, uint, and ulong, respectively. The unsigned types have the same size as their signed versions but store much larger ranges of only positive values.`
 
 ## Arrays in C#
