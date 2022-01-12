@@ -27,7 +27,7 @@ core functionality that you can use directly in your C# program
 
 `#KeepNote_01 | C# is a case-sensitive programming language. As a result, typing “Class” instead of “class” (for example) will result in a syntax error.  `
 
-<img src="../Storage/ImageForDocumentation/CommonLanguageInfrastructure.png">
+<img src="../Storage/ImageForDocumentation/CLI.png">
 
 ```
                     # CIL => Common Intermediate Language                    # .exe => Executable
