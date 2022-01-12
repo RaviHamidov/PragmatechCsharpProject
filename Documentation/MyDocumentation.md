@@ -1,4 +1,5 @@
-# The Structure of a C# Program
+# C# Fundamental
+## The Structure of a C# Program
 
 C# is a popular high-level programming language that allows you to write computer 
 programs in a human-readable format. C# is a part of the `.NET Framework` and benefits 
@@ -24,20 +25,15 @@ on the .NET Framework. The .NET Framework provides a runtime execution environme
 for the C# program. The Framework also contains class libraries that provide a lot of reusable 
 core functionality that you can use directly in your C# program
 
-```
-                                                         #KeepNote_01
+`#KeepNote_01 | C# is a case-sensitive programming language. As a result, typing “Class” instead of “class” (for example) will result in a syntax error.  `
 
-                                            C# is a case-sensitive programming language. 
-                        As a result, typing “Class” instead of “class” (for example) will result in a syntax error. 
-```
-<div style="display: flex; justify-content: center; text-align: center;padding: 5% 0px;">
-    <img src="../Storage/ImageForDocumentation/SomeThing.png" width="70%" height="80%"> 
-</div>
+<img src="../Storage/ImageForDocumentation/CommonLanguageInfrastructure.png">
 
 ```
-                    # IL => Intermediate Language                            # .exe => Executable
+                    # CIL => Common Intermediate Language                    # .exe => Executable
                     # CLR => Common Runtime Language                         # IDE => Integrated Development Environment
-                    # JIT => Just In Time                                    # DLL => Dynamic Link Library
+                    # CLI => Common Language Infrastructure                  # DLL => Dynamic Link Library
+                    # JIT => Just In Time
 ```
 
 Before Common Intermediate Language (CIL) code can be executed, it must first be 
@@ -83,14 +79,73 @@ program. When the runtime executes a program, it always starts at the Main metho
 
 A program can have many classes and each class can have many methods, but it should have only one Main method. A method can in turn call other methods. In line 9, the Main method is calling the WriteLine method of the System.Console class to display a string of characters on the command window—and that’s how the message is displayed.
 
+`#KeepNote_02 | Every C# statement must end with a semicolon (;).`
+
+`#KeepNote_03 | The Main method must be declared as static. A static method is callable on a class even when no instance of the class has been created.`
+
+## The Variables
+
+`Variables provide temporary storage during the execution of a program.`
+The variables in C# are placeholders used to store values. A variable has a name and a data 
+type. A variable’s data type determines what values it can contain and what kind of operations may be performed on it. For example, the following declaration creates a variable named 
+number of the data type int and assigns a value of 10 to the variable:
 ```
-                         #KeepNote_02                                                  #KeepNote_03
-
-                    Every C# statement must                             The Main method must be declared as static. 
-                    end with a semicolon (;).                           A static method is callable on a class even
-                                                                        when no instance of the class has been created.
+int number = 10;
 ```
+When a variable is declared, a location big enough to hold the value for its data type is 
+created in the computer memory. For example, on a 32-bit machine, a variable of data type 
+int will need two bytes of memory. The value of a variable can be modified by another assignment, such as:
+```
+number = 20;
+```
+The above code changes the contents of the memory location identified by the name number
 
+## The Constants
 
+`Constants are data fields or local variables whose value cannot be modified.`
+Constants are declared by using the const keyword. For example, a constant can be declared 
+as follows:
+```
+const int i = 10;
+```
+This declares a constant i of data type int and stores a value of 10. Once declared, the value 
+of the constant cannot be changed.
 
-Second Section Progressing . . .
+## The Data Types
+
+`Data types specify the type of data that you work with in a program. The data type defines the size of memory needed to store the data and the kinds of operations that can be performed on the data.`
+
+C# provides several built-in data types that you can use in your programs. You can also define 
+new types by defining a data structure, such as a class or a struct. This chapter focuses on 
+some of the most commonly used built-in data types.
+Table 1-3 lists several commonly used built-in data types available in C#. The sizes listed in 
+the table refer to a computer running a 32-bits operating system such as Windows 7, 32-bit. 
+For a 64-bits operating system, such as Windows 7 64-bit, these sizes will be different.
+
+| Data Types | Size | Range of Values |
+|--|--|--|
+| byte | 1 byte | 0 to 255
+| char | 2 bytes | U +0000 to U +ffff (Unicode characters)
+| short | 2 bytes | -32,768 to 32,767
+| int | 4 bytes | 2,147,483,648 to 2,147,483,647
+| long | 8 bytes | 9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+| float | 4 bytes | 1.5  10-45 to 3.4  1038
+| double | 8 bytes | (+/-)5.0 x 10-324  to (+/-)1.7 x 10308
+| bool | 2 bytes | True or false
+| string | - | Zero or more Unicode characters
+| decimal || (-7.9 x 1028  to 7.9 x 1028) / 100  to 28 |
+| sbyte || -128 to 127|
+| enum |||
+| struct |||
+
+All the data types listed in Table 1-3 are value types except for string, which is a reference 
+type. The variables that are based directly on the value types contain the value. In the case 
+of the reference type, the variable holds the address of the memory location where the actual 
+data is stored. You will learn more about the differences between value types and reference 
+types in Future ;)
+
+`#KeepNote_04 | Commonly used built-in data types in C#`
+`#KeepNote_05 | The unsigned versions of short, int, and long are ushort, uint, and ulong, respectively. The unsigned types have the same size as their signed versions but store much larger ranges of only positive values.`
+
+## Arrays in C#
+
