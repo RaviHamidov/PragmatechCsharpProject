@@ -25,7 +25,9 @@ on the .NET Framework. The .NET Framework provides a runtime execution environme
 for the C# program. The Framework also contains class libraries that provide a lot of reusable 
 core functionality that you can use directly in your C# program
 
-`#KeepNote_01 | C# is a case-sensitive programming language. As a result, typing “Class” instead of “class” (for example) will result in a syntax error.  `
+```
+#KeepNote_01 | C# is a case-sensitive programming language. As a result, typing “Class” instead of “class” (for example) will result in a syntax error.  
+```
 
 <img src="../Storage/ImageForDocumentation/CLI.png">
 
@@ -79,9 +81,10 @@ program. When the runtime executes a program, it always starts at the Main metho
 
 A program can have many classes and each class can have many methods, but it should have only one Main method. A method can in turn call other methods. In line 9, the Main method is calling the WriteLine method of the System.Console class to display a string of characters on the command window—and that’s how the message is displayed.
 
-`#KeepNote_02 | Every C# statement must end with a semicolon (;).`
-
-`#KeepNote_03 | The Main method must be declared as static. A static method is callable on a class even when no instance of the class has been created.`
+```
+#KeepNote_02 | Every C# statement must end with a semicolon (;).
+#KeepNote_03 | The Main method must be declared as static. A static method is callable on a class even when no instance of the class has been created.
+```
 
 ## The Variables
 
