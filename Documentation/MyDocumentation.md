@@ -89,8 +89,7 @@ A program can have many classes and each class can have many methods, but it sho
 
 ## The Variables
 
-`Variables provide temporary storage during the execution of a program.`
-The variables in C# are placeholders used to store values. A variable has a name and a data 
+`Variables provide temporary storage during the execution of a program.` The variables in C# are placeholders used to store values. A variable has a name and a data 
 type. A variable’s data type determines what values it can contain and what kind of operations may be performed on it. For example, the following declaration creates a variable named 
 number of the data type int and assigns a value of 10 to the variable:
 ```C#
@@ -106,8 +105,7 @@ The above code changes the contents of the memory location identified by the nam
 
 ## The Constants
 
-`Constants are data fields or local variables whose value cannot be modified.`
-Constants are declared by using the const keyword. For example, a constant can be declared 
+`Constants are data fields or local variables whose value cannot be modified.` Constants are declared by using the const keyword. For example, a constant can be declared 
 as follows:
 ```C#
 const int i = 10;
@@ -202,9 +200,7 @@ class Program
 
 ## Arrays in C#
 
-`An array is a collection of items in which each item can be accessed by using a unique index.`
-
-An array in C# is commonly used to represent a collection of items of similar type. A sample 
+`An array is a collection of items in which each item can be accessed by using a unique index.` An array in C# is commonly used to represent a collection of items of similar type. A sample 
 array declaration is shown in the following code:
 int[] numbers = { 1, 2, 3, 4, 5 };
 This declaration creates an array identified by the name numbers. This array is capable of 
