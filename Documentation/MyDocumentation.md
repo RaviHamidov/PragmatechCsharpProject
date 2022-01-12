@@ -83,6 +83,7 @@ A program can have many classes and each class can have many methods, but it sho
 
 ```
 #KeepNote_02 | Every C# statement must end with a semicolon (;).
+
 #KeepNote_03 | The Main method must be declared as static. A static method is callable on a class even when no instance of the class has been created.
 ```
 
@@ -165,9 +166,11 @@ data is stored. Value type uses stack  memory, so if we a and b value type each 
     // b: 3
 ```
 
-`#KeepNote_04 | Commonly used built-in data types in C#`
+```
+#KeepNote_04 | Commonly used built-in data types in C#
 
-`#KeepNote_05 | The unsigned versions of short, int, and long are ushort, uint, and ulong, respectively. The unsigned types have the same size as their signed versions but store much larger ranges of only positive values.`
+#KeepNote_05 | The unsigned versions of short, int, and long are ushort, uint, and ulong, respectively. The unsigned types have the same size as their signed versions but store much larger ranges of only positive values.
+```
 
 ### Reference Type
 All types except the Reference Type value type belong to the Reference type. The usage value of the reference type is stored in the Heap memory. The name of those variables and the link to the value in the Heap memory are stored in the stack memory. Example information about the reference type:
