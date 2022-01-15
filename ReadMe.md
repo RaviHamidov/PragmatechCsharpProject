@@ -121,3 +121,54 @@
     - [Solution](https://github.com/RaviHamidov/PragmatechCsharpProject/tree/main/04_Lesson)
 
 ## Lesson-05 [08/01/2022]
+
+- Lesson
+
+    - [Content](https://github.com/PragmatechEducation/Csharp04#-lesson-5-08-yanvar-2022-)
+    ```
+        01 ) String vs StringBuilder
+        02 ) Constructors
+    ```
+    - [Documentation](https://github.com/RaviHamidov/PragmatechCsharpProject/blob/main/Documentation/Notes.md)
+    - [Code](https://github.com/RaviHamidov/PragmatechCsharpProject/blob/main/00_SelfPractise/SelfPractise/SelfPractise/Program.cs)
+
+- Task
+    - [Content](https://github.com/PragmatechEducation/Csharp04#-lesson-5-08-yanvar-2022-)
+    ```
+        01) Student class-i yaradin:
+            Fullname
+            GroupNo
+            Age
+            Student classi ucun GetBirthYear() metodunu yazin.Bu metod Studentin dogum ilini geri qaytarir
+            Student Arrayi yaradin.
+            Qrup nomresini daxil etmekle bir qrupda nece telebenin oxudugunu check eden method yazin.(2ci parametr kimi array daxil edeceksiz)
+            ps:Student yaradilarken butun deyerlerin verilmesi mecburidir
+    ```
+    - [Solution](https://github.com/RaviHamidov/PragmatechCsharpProject/tree/main/05_Lesson)
+
+## Lesson-06 [12/01/2022]
+
+- Lesson
+
+    - [Content](https://github.com/PragmatechEducation/Csharp04#-lesson-6-12-yanvar-2022-)
+    ```
+        01 ) Static keyword
+        02 ) Static keyword 2
+    ```
+    - [Documentation](https://github.com/RaviHamidov/PragmatechCsharpProject/blob/main/Documentation/Notes.md)
+    - [Code](https://github.com/RaviHamidov/PragmatechCsharpProject/blob/main/00_SelfPractise/SelfPractise/SelfPractise/Program.cs)
+
+- Task
+    - [Content](https://github.com/PragmatechEducation/Csharp04#-lesson-6-12-yanvar-2022-)
+    ```
+        01) Account - class
+            No - her bir account obyektinin unique nomersidir ve onun necenci yarandigini gosterir
+            Username
+            Password
+            IsUserNameValid() method - username yanlizca digit ve herflerden ibaret ola biler yoxlanisi
+
+            IsPasswordValid() method-uzunluq 8-25, siferenin icinde en az bir symbol,1 uppurcase letter ve en az bir digit istifade olunmalidir yoxlanisi console readlinedan aldiginiz datani bu methodlarda yoxlayib sonra yeni obyekte menimsedeceksiz...
+
+            1.Constructorda name ve password qebul edilsin
+    ```
+    - [Solution](https://github.com/RaviHamidov/PragmatechCsharpProject/tree/main/06_Lesson)
