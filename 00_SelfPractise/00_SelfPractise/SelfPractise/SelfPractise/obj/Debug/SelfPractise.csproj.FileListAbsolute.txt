@@ -1,0 +1,8 @@
+C:\Users\Code\Desktop\PragmatechCsharpProject\00_SelfPractise\00_SelfPractise\SelfPractise\SelfPractise\bin\Debug\SelfPractise.exe.config
+C:\Users\Code\Desktop\PragmatechCsharpProject\00_SelfPractise\00_SelfPractise\SelfPractise\SelfPractise\bin\Debug\SelfPractise.exe
+C:\Users\Code\Desktop\PragmatechCsharpProject\00_SelfPractise\00_SelfPractise\SelfPractise\SelfPractise\bin\Debug\SelfPractise.pdb
+C:\Users\Code\Desktop\PragmatechCsharpProject\00_SelfPractise\00_SelfPractise\SelfPractise\SelfPractise\obj\Debug\SelfPractise.csproj.AssemblyReference.cache
+C:\Users\Code\Desktop\PragmatechCsharpProject\00_SelfPractise\00_SelfPractise\SelfPractise\SelfPractise\obj\Debug\SelfPractise.csproj.SuggestedBindingRedirects.cache
+C:\Users\Code\Desktop\PragmatechCsharpProject\00_SelfPractise\00_SelfPractise\SelfPractise\SelfPractise\obj\Debug\SelfPractise.csproj.CoreCompileInputs.cache
+C:\Users\Code\Desktop\PragmatechCsharpProject\00_SelfPractise\00_SelfPractise\SelfPractise\SelfPractise\obj\Debug\SelfPractise.exe
+C:\Users\Code\Desktop\PragmatechCsharpProject\00_SelfPractise\00_SelfPractise\SelfPractise\SelfPractise\obj\Debug\SelfPractise.pdb
