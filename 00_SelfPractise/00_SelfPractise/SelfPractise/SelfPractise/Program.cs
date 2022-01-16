@@ -220,7 +220,7 @@ namespace SelfPractise
             Boxing and Unboxing
             */
             #region Ref&OutKeyword 
-            int a = 5;
+            /*int a = 5;
             int b = 7;
 
             Console.WriteLine("with out Ref Keyword");   
@@ -232,24 +232,46 @@ namespace SelfPractise
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine("- - - - - - - - - - - - - -");
+
             Console.WriteLine("with Out Keyword");
             int NumberOne;
             int NumberTwo = 42;
             var result = ChangeNumberTwo(out NumberOne, NumberTwo);
             Console.WriteLine(result);
             Console.WriteLine(NumberOne);
-            Console.ReadKey();
+            Console.ReadKey();*/
+            #endregion
+            #region Methods
+            /*int a = 5;
+            int b = 7;
+            int c = Sum(a, b);
+
+            Console.WriteLine("The Value of the sum is " + c);
+            Console.ReadKey();*/ 
+            #endregion
+            #region TypeCasting
+
+            #endregion
+            #region Boxing and Unboxing
+
             #endregion
         }
-        static void ChangeNumberOne(ref int number)
+        static void ChangeNumberOne(ref int number) // Ref Keyword
         {
             number = 42;
         }
-        static int ChangeNumberTwo(out int NumberOne, int NumberTwo)
+        static int ChangeNumberTwo(out int NumberOne, int NumberTwo) // Out Keyword
         {
             NumberOne = 30;
             return NumberOne + NumberTwo;
         }
-        
+        static int Sum(int x ,int y) // Sum Method
+        {
+            int a = x;
+            int b = y;
+            int result = x + y;
+
+            return result;
+        }
     }
 }
