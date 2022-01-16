@@ -247,10 +247,17 @@ namespace SelfPractise
             int c = Sum(a, b);
 
             Console.WriteLine("The Value of the sum is " + c);
-            Console.ReadKey();*/ 
+            Console.ReadKey();*/
             #endregion
             #region TypeCasting
-
+            // value typler* arasinda kecid (*eyni deyer tipne sahib)
+            /*birdeki upCast, downCast sohbeti var ordada demeli kicik value
+            typedan boyuye kecende upcast, boyukden kiciye downcast deyilir*/
+            // Meselen:
+            int int_number = 5;
+            Console.WriteLine("");
+            long long_number = int_number;
+            Console.WriteLine(long_number+"Long");
             #endregion
             #region Boxing and Unboxing
 
