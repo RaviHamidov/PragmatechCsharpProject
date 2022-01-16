@@ -76,9 +76,59 @@ namespace SelfPractise
                     Console.WriteLine("This is not a switch");
                     break;
             }*/
+            /*int t;
+            Console.WriteLine("Nese yaz");
+            t = int.Parse(Console.ReadLine());
+            switch (t)
+            {
+                case 1:
+                    Console.WriteLine("reqem 1 dir");
+                    break;
+                case 2:
+                    Console.WriteLine("reqem 2 dir");
+                    break;
+                case 3:
+                case 6:
+                    Console.WriteLine("reqem 3 ve ya 6 dir");
+                    break;
+                default:
+                    Console.WriteLine("yoe qeqes o del");
+                    break;
+            }*/
 
+            /*int u;
+            Console.WriteLine("Nese yaz");
+            u = int.Parse(Console.ReadLine());
+            switch (u)
+            {
+                case 10:
+                    Console.WriteLine("reqem 10 dir");
+                    switch (u-3)
+                    {
+                        case 7:
+                            Console.WriteLine("daxil etdiyini eded -3 edende 7 qaldi");
+                            switch (u - 4)
+                            {
+                                case 3:
+                                    Console.WriteLine(" -4 edende 3 qaldi");
+                                    break;
+                            }
+                            break;
+                    }
+                    break;
+                case 7:
+                    Console.WriteLine("reqem 2 dir");
+                    break;
+                case 8:
+                case 9:
+                    Console.WriteLine("reqem 3 ve ya 6 dir");
+                    break;
+                default:
+                    Console.WriteLine("yoe qeqes o del");
+                    break;
+            }
 
-            Console.ReadKey();
+            Console.ReadKey();*/
             #endregion
             #region ForLoopPractise
             /*for (initializer; condition; iterator)
@@ -148,11 +198,8 @@ namespace SelfPractise
             {
                 Console.WriteLine("Result is a: {0}",i);
             }
-
-
             Console.ReadKey();*/
             #endregion
         }
     }
-
 }

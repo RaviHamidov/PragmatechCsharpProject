@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{602003BC-24BF-421D-9CE6-32FFE0ACB12D}</ProjectGuid>
+    <ProjectGuid>{08394E4C-690B-42C4-AC33-41070090A9CC}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>SelfPractise</RootNamespace>
     <AssemblyName>SelfPractise</AssemblyName>
