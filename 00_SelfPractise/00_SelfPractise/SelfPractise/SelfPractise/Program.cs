@@ -10,6 +10,18 @@ namespace SelfPractise
     {
         static void Main(string[] args)
         {
+            /*Demeli burda yazilan kodla file adindaki kimi ozumcundur burada zero to hero Hocanin kecdiyi
+            derslerin topic lerin adlarin yazacam haqlarinda yazacam numune kodlar uzerinde isleyecem ve.s*/
+            /*
+            CLI languages
+            For Loop
+            Switch Statement
+            Data Types
+            Stack Value Type
+            Heap Reference Type
+            Stack vs Heap Memory
+            */
+
             #region IfElseStatementPractise
             /*oz ozume task olsun if else ile 10 qeder reqem , 10 ve 20 arasi reqem ve 20 den boyuk reqem daxil edende bize daxil olunan reqem haqqinda info veren program*/
             /*int n;
@@ -200,6 +212,44 @@ namespace SelfPractise
             }
             Console.ReadKey();*/
             #endregion
+
+            /*
+            Ref & out keyword C#
+            Methods
+            Type Casting
+            Boxing and Unboxing
+            */
+            #region Ref&OutKeyword 
+            int a = 5;
+            int b = 7;
+
+            Console.WriteLine("with out Ref Keyword");   
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            ChangeNumberOne(ref a);
+            Console.WriteLine("- - - - - - - - - - - - - -");
+            Console.WriteLine("with Ref Keyword");
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine("- - - - - - - - - - - - - -");
+            Console.WriteLine("with Out Keyword");
+            int NumberOne;
+            int NumberTwo = 42;
+            var result = ChangeNumberTwo(out NumberOne, NumberTwo);
+            Console.WriteLine(result);
+            Console.WriteLine(NumberOne);
+            Console.ReadKey();
+            #endregion
         }
+        static void ChangeNumberOne(ref int number)
+        {
+            number = 42;
+        }
+        static int ChangeNumberTwo(out int NumberOne, int NumberTwo)
+        {
+            NumberOne = 30;
+            return NumberOne + NumberTwo;
+        }
+        
     }
 }
