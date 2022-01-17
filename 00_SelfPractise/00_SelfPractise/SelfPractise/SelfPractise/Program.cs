@@ -335,6 +335,20 @@ namespace SelfPractise
 
             #endregion
             #region Arrays
+            /*int[] evenNums = new int[5] { 2, 3, 4, 5, 6 };
+            string[] oddNums = new string[2] { "memmed", "kartof" };
+            // with var
+            var evenNumsTwo = new int[] { 1, 2, 3, 4 };
+            var evenNumsThree = new string[] { "memed", "kartof", "armud" };
+            // short version with crreate array
+            int[] evenNumb = new int[] { 1, 2, 4 };
+            string[] oddNumb = new string[] { "memed", "kartof", "alma" };
+            // Late initilazition 
+            int[] evennumbers;
+            evennumbers = new int[] { 1, 2, 3, 4, 5, 2, 12 };
+            // or
+            evennumbers = new int[5]; */
+
             #endregion
             #region Dublicate values
             #endregion
