@@ -330,9 +330,6 @@ namespace SelfPractise
                 Console.WriteLine(oZudu);
             }*/
 
-
-            Console.ReadKey();
-
             #endregion
             #region Arrays
             /*int[] evenNums = new int[5] { 2, 3, 4, 5, 6 };
@@ -348,6 +345,23 @@ namespace SelfPractise
             evennumbers = new int[] { 1, 2, 3, 4, 5, 2, 12 };
             // or
             evennumbers = new int[5]; */
+
+            // accseing array elements using for loop
+            /*Console.WriteLine("kARTOF");*/
+            int[] eventnumbs = { 1, 2, 3 ,4 ,5, 5};
+
+            /*for (int i = 0; i < eventnumbs.Length; i++)
+                Console.WriteLine(eventnumbs[i]);
+
+            for (int i = 0;i < eventnumbs.Length; i++)
+                eventnumbs[i] = eventnumbs[i] + 10;
+
+            Console.WriteLine("before progess . . .");
+
+            for (int i = 0; i < eventnumbs.Length; i++)
+                Console.WriteLine(eventnumbs[i]);*/
+
+            Console.ReadKey();
 
             #endregion
             #region Dublicate values
