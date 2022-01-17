@@ -254,13 +254,29 @@ namespace SelfPractise
             /*birdeki upCast, downCast sohbeti var ordada demeli kicik value
             typedan boyuye kecende upcast, boyukden kiciye downcast deyilir*/
             // Meselen:
-            int int_number = 5;
-            Console.WriteLine("");
-            long long_number = int_number;
-            Console.WriteLine(long_number+"Long");
+            /*int int_numberOne = 5;
+            Console.WriteLine($"{int_numberOne} IntOne");
+            long long_numberOne = int_numberOne;
+            Console.WriteLine($"{long_numberOne} LongOne"); // that is a upCasting
+            Console.WriteLine("- - - - - - - - - -");
+            long long_numberTwo = 7;
+            Console.WriteLine($"{long_numberTwo} LongTwo");
+            int int_numberTwo = (int)long_numberTwo;
+            Console.WriteLine($"{int_numberTwo} IntTwo");
+            Console.ReadKey();*/
             #endregion
             #region Boxing and Unboxing
-
+            /*Demeli Boxing Unboxing prosesi beledirki, value type nin reference type a kecirende
+            boxing ancaq, reference type value type a kecirende unboxing*/
+            // Meselen:
+            int int_NumberThree = 7;
+            object obj = int_NumberThree;
+            Console.WriteLine(obj); // Burda bas veren prosese boxing deyilir
+            Console.WriteLine("- - - - - -");
+            object objTwo = 9;
+            int int_NumberFour = (int)objTwo;
+            Console.WriteLine(int_NumberFour);  // Burda olan ise unboxingdir
+            Console.ReadKey();  
             #endregion
         }
         static void ChangeNumberOne(ref int number) // Ref Keyword
