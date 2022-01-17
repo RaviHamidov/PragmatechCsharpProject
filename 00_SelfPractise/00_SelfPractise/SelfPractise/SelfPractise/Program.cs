@@ -285,9 +285,37 @@ namespace SelfPractise
             Duplicate values
             */
             #region Method Overloading
-
+            /*
+            Demeli method overloading methodlarin eyni addan istifade edibde ferqli funksiyalar icra etmesine deyilir
+            Bunu methodun void veya return olmasina gore yadaki parametrlerinin sayina gore ferqlendirmek olar
+            */
             #endregion
             #region String Methods
+            /*string myName = "My name is memmedEli";
+            myName = myName.ToUpper();
+            Console.WriteLine(myName);*/ // Step 1
+
+            /*string myName = "My name is NoBody";
+            myName = myName.ToLower();
+            Console.WriteLine(myName);*/ // Step 2
+
+            /*string myName = "     M y n a m e i s m e m e d e l i      ";
+            Console.WriteLine(myName);
+            myName = myName.Trim();
+            Console.WriteLine(myName);*/
+
+            /*string myName = " my name is memmedeli";
+            bool isContains = myName.Contains("elimemmed");
+            Console.WriteLine(isContains); // False*/
+
+            string text = "NoBody";
+            char[] charArray = text.ToCharArray();
+            foreach (var c in charArray)
+            {
+                Console.WriteLine(c);
+            }
+            Console.ReadKey();
+
             #endregion
             #region Arrays
             #endregion
