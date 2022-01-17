@@ -370,6 +370,38 @@ namespace SelfPractise
             Console.WriteLine(nums.Average());*/
 
             // Accesing foreach loop
+            /*int[] evenynums = { 1, 2, };
+            string[] citiesf = { "london", "baku", "canada" };
+
+            foreach (int i in evenynums)
+                Console.WriteLine(i);
+
+            foreach (string i in citiesf)
+                Console.WriteLine(i);*/
+
+            // accesing array methods
+
+            int[] nums = new int[10] { 1, 2, 3, 4, 5, 2, 4, 2, 4, 4 };
+
+            /*Console.WriteLine("ozudu");
+            foreach(var i in nums)
+                Console.WriteLine(i);
+
+            Array.Sort(nums);
+            Console.WriteLine("When sorted");
+
+            foreach (var i in nums)
+                Console.WriteLine(i);*/
+
+            Array.Reverse(nums);
+            Console.WriteLine("When array reverse");
+
+            foreach (var item in nums)
+                Console.WriteLine(item);    
+
+            /*Array.ForEach<int>(nums, i => Console.WriteLine(i));
+            Console.WriteLine(Array.BinarySearch(nums,10));*/
+
 
 
             Console.ReadKey();
