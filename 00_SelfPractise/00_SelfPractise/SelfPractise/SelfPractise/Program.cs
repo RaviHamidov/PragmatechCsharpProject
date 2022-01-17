@@ -347,19 +347,29 @@ namespace SelfPractise
             evennumbers = new int[5]; */
 
             // accseing array elements using for loop
-            /*Console.WriteLine("kARTOF");*/
+            /*Console.WriteLine("kARTOF");
             int[] eventnumbs = { 1, 2, 3 ,4 ,5, 5};
 
-            /*for (int i = 0; i < eventnumbs.Length; i++)
+            for (int i = 0; i < eventnumbs.Length; i++)
                 Console.WriteLine(eventnumbs[i]);
 
-            for (int i = 0;i < eventnumbs.Length; i++)
+            for (int i = 0; i < eventnumbs.Length; i++)
                 eventnumbs[i] = eventnumbs[i] + 10;
 
             Console.WriteLine("before progess . . .");
 
             for (int i = 0; i < eventnumbs.Length; i++)
                 Console.WriteLine(eventnumbs[i]);*/
+
+            // Ling methods
+            /*int[] nums = new int[5] { 1, 2, 3, 4, 5 };
+
+            Console.WriteLine(nums.Min());
+            Console.WriteLine(nums.Max());
+            Console.WriteLine(nums.Sum());
+            Console.WriteLine(nums.Average());*/
+
+            // Accesing foreach loop
 
             Console.ReadKey();
 
