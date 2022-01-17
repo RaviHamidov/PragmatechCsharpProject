@@ -10,7 +10,8 @@ namespace SelfPractise
     {
         static void Main(string[] args)
         {
-            /*Demeli burda yazilan kodla file adindaki kimi ozumcundur burada zero to hero Hocanin kecdiyi
+            /*
+            Demeli burda yazilan kodla file adindaki kimi ozumcundur burada zero to hero Hocanin kecdiyi
             derslerin topic lerin adlarin yazacam haqlarinda yazacam numune kodlar uzerinde isleyecem ve.s*/
             /*
             CLI languages
@@ -21,7 +22,6 @@ namespace SelfPractise
             Heap Reference Type
             Stack vs Heap Memory
             */
-
             #region IfElseStatementPractise
             /*oz ozume task olsun if else ile 10 qeder reqem , 10 ve 20 arasi reqem ve 20 den boyuk reqem daxil edende bize daxil olunan reqem haqqinda info veren program*/
             /*int n;
@@ -212,7 +212,6 @@ namespace SelfPractise
             }
             Console.ReadKey();*/
             #endregion
-
             /*
             Ref & out keyword C#
             Methods
@@ -269,14 +268,30 @@ namespace SelfPractise
             /*Demeli Boxing Unboxing prosesi beledirki, value type nin reference type a kecirende
             boxing ancaq, reference type value type a kecirende unboxing*/
             // Meselen:
-            int int_NumberThree = 7;
+            /*int int_NumberThree = 7;
             object obj = int_NumberThree;
             Console.WriteLine(obj); // Burda bas veren prosese boxing deyilir
             Console.WriteLine("- - - - - -");
             object objTwo = 9;
             int int_NumberFour = (int)objTwo;
             Console.WriteLine(int_NumberFour);  // Burda olan ise unboxingdir
-            Console.ReadKey();  
+            Console.ReadKey();  */
+            #endregion
+            /*
+            Method Overloading burdan Overloading-e qeder oxuyun
+            String Methods
+            String Methods 2
+            Arrays
+            Duplicate values
+            */
+            #region Method Overloading
+
+            #endregion
+            #region String Methods
+            #endregion
+            #region Arrays
+            #endregion
+            #region Dublicate values
             #endregion
         }
         static void ChangeNumberOne(ref int number) // Ref Keyword
