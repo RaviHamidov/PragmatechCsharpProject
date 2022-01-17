@@ -308,12 +308,29 @@ namespace SelfPractise
             bool isContains = myName.Contains("elimemmed");
             Console.WriteLine(isContains); // False*/
 
-            string text = "NoBody";
+            /*string text = "NoBody";
             char[] charArray = text.ToCharArray();
             foreach (var c in charArray)
             {
                 Console.WriteLine(c);
-            }
+            }*/
+
+            /*string textT = "No Body";
+                   textT = textT.Substring(2,5);    
+            Console.WriteLine(textT);*/
+
+            /*string myName = "myName is memmefwfw";
+            bool isContains = myName.StartsWith("my");
+            Console.WriteLine(isContains);*/
+
+            /*string memmed = "memmed kartof alma armuf";
+            string[] whiteSpace = memmed.Split(' ');
+            foreach (string oZudu in whiteSpace)
+            {
+                Console.WriteLine(oZudu);
+            }*/
+
+
             Console.ReadKey();
 
             #endregion
