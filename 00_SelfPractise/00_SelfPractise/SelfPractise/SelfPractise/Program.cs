@@ -414,7 +414,7 @@ namespace SelfPractise
             NumberOne = 30;
             return NumberOne + NumberTwo;
         }
-        static int Sum(int x ,int y) // Sum Method
+        static int Sum(int x, int y) // Sum Method
         {
             int a = x;
             int b = y;
@@ -422,5 +422,8 @@ namespace SelfPractise
 
             return result;
         }
+    }
+    class Customer
+    {
     }
 }
