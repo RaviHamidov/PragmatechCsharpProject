@@ -399,12 +399,45 @@ namespace SelfPractise
             Array.ForEach<int>(nums, i => Console.WriteLine(i));
             Console.WriteLine(Array.BinarySearch(nums, 10));*/
 
-            Console.ReadKey();
+            /*Console.ReadKey();*/
 
             #endregion
             #region Dublicate values
             #endregion
+            /*
+            Use Params Keyword
+            Class And Object
+            */
+            /*
+            String vs StringBuilder
+            Constructors
+            */
+            #region Constructors in C#
+            Console.WriteLine("Hello World!");
+            Customer customer = new Customer { Id = 1, FirstName = "MemmedEli", LastName = "Memmedov", City = "Baku" };
+            Customer customer3 = new Customer { };
+            customer3.Id = 1;
+            customer3.FirstName = "Yarpaq Dolmas";
+            customer3.LastName = "Gurcu Xengeli";
+            customer3.City = "Kurs";
+
+            Customer customer2 = new Customer(2, "Kelem", "Kelemov", "Terevezistan");
+
+            Console.WriteLine(customer2.FirstName);
+            #endregion
+            /*
+            Static keyword
+            Static keyword 2
+            */
+            /*
+            C# - ArrayList
+            */
         }
+        /*static void Method(int id, string firstname, string lastname, string city)
+        {
+
+        }*/
+
         static void ChangeNumberOne(ref int number) // Ref Keyword
         {
             number = 42;
@@ -425,5 +458,24 @@ namespace SelfPractise
     }
     class Customer
     {
+        // overloading
+        public Customer()
+        {
+
+        }
+        // default constructor 
+        public Customer(int id,string firstname,string lastname,string city)
+        {
+            Console.WriteLine("Constructornan hoqqa verrem.");
+            Id = id;    
+            FirstName = firstname;
+            LastName = lastname;
+            City = city;
+        }
+
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string City { get; set; }
     }
 }
