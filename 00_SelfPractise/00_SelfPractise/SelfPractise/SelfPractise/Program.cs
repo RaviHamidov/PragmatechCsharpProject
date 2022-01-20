@@ -88,6 +88,7 @@ namespace SelfPractise
                     Console.WriteLine("This is not a switch");
                     break;
             }*/
+
             /*int t;
             Console.WriteLine("Nese yaz");
             t = int.Parse(Console.ReadLine());
@@ -222,7 +223,7 @@ namespace SelfPractise
             /*int a = 5;
             int b = 7;
 
-            Console.WriteLine("with out Ref Keyword");   
+            Console.WriteLine("with out Ref Keyword");
             Console.WriteLine(a);
             Console.WriteLine(b);
             ChangeNumberOne(ref a);
@@ -299,7 +300,7 @@ namespace SelfPractise
             myName = myName.ToLower();
             Console.WriteLine(myName);*/ // Step 2
 
-            /*string myName = "     M y n a m e i s m e m e d e l i      ";
+            /*string myName = "     nameismemmedeli      ";
             Console.WriteLine(myName);
             myName = myName.Trim();
             Console.WriteLine(myName);*/
@@ -370,14 +371,14 @@ namespace SelfPractise
             Console.WriteLine(nums.Average());*/
 
             // Accesing foreach loop
-            /*int[] evenynums = { 1, 2, };
+            int[] evenynums = { 1, 2, };
             string[] citiesf = { "london", "baku", "canada" };
 
             foreach (int i in evenynums)
                 Console.WriteLine(i);
 
             foreach (string i in citiesf)
-                Console.WriteLine(i);*/
+                Console.WriteLine(i);
 
             // accesing array methods
 
@@ -421,7 +422,7 @@ namespace SelfPractise
             customer3.LastName = "Gurcu Xengeli";
             customer3.City = "Kurs";
 
-            Customer customer2 = new Customer(2, "Kelem", "Kelemov", "Terevezistan");
+            Customer customer2 = new Customer(2, "Kelem",   "Kelemov", "Terevezistan");
 
             Console.WriteLine(customer2.FirstName);
             #endregion
@@ -433,10 +434,10 @@ namespace SelfPractise
             C# - ArrayList
             */
         }
-        /*static void Method(int id, string firstname, string lastname, string city)
+        static void Method(int id, string firstname, string lastname, string city)
         {
 
-        }*/
+        }
 
         static void ChangeNumberOne(ref int number) // Ref Keyword
         {
@@ -461,13 +462,12 @@ namespace SelfPractise
         // overloading
         public Customer()
         {
-
         }
-        // default constructor 
+        // default constructor
         public Customer(int id,string firstname,string lastname,string city)
         {
             Console.WriteLine("Constructornan hoqqa verrem.");
-            Id = id;    
+            Id = id;
             FirstName = firstname;
             LastName = lastname;
             City = city;
