@@ -4,26 +4,116 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SelfPractise
+namespace SelfPractiseMark_01
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             /*
-            Demeli burda yazilan kodla file adindaki kimi ozumcundur burada zero to hero Hocanin kecdiyi
-            derslerin topic lerin adlarin yazacam haqlarinda yazacam numune kodlar uzerinde isleyecem ve.s*/
-            /*
+            =======================
+            # LessonMark_01
+
             CLI languages
-            For Loop
+            Loops
             Switch Statement
             Data Types
             Stack Value Type
             Heap Reference Type
             Stack vs Heap Memory
+            =======================
+            # LessonMark_02
+
+            Ref & out keyword C#
+            Methods
+            Type Casting
+            Boxing and Unboxing
+            =======================
+            # LessonMark_03
+
+            Method Overloading
+            String Methods
+            Arrays
+            Duplicate values
+            =======================
+            # LessonMark_04
+
+            Use Params Keyword
+            Class And Object
+            =======================
+            # LessonMark_05
+
+            String vs StringBuilder
+            Constructors
+            =======================
+            # LessonMark_06
+
+            Static keyword
+            =======================
+            # LessonMark_07
+
+            ArrayList
+            =======================
             */
-            #region IfElseStatementPractise
-            /*oz ozume task olsun if else ile 10 qeder reqem , 10 ve 20 arasi reqem ve 20 den boyuk reqem daxil edende bize daxil olunan reqem haqqinda info veren program*/
+
+            Console.WriteLine("= = = = = = = For Loops = = = = = = =");
+            #region ForLoops
+
+            /*for (initializer; condition; iterator)
+            {
+                Code block
+            }
+
+            for (int q = 0; q < 10; q++)
+            {
+                Console.WriteLine("Q Result is: {0}", q);
+            }
+            Console.WriteLine("-----------------------");
+            // or
+            for (int w = 0; w < 10; w++)
+                Console.WriteLine("W Result is: {0}", w);
+            // If a code block contains a single statement, then you don't need to wrap it inside curly brackets {}.
+            int e = 0;
+
+            for (; ; )
+            {
+                if (e < 10)
+                {
+                    Console.WriteLine("E Result is: {0}", e);
+                    e++;
+                }
+                else
+                    break;
+            }
+            Console.WriteLine("-----------------------");
+            // An initializer, Condition and Iterator sections are optional. You can initialize a variable before for loop, and Condition and Iterator can be defined inside a code block.
+            for (double r = 1.01D; r < 1.10; r += 0.01D)
+                Console.WriteLine("R Result is: {0}", r);
+            Console.WriteLine("-----------------------");
+            // The control variable for the for loop can be of any numeric data type such as double, decimal, etc.
+            for (int t = 0; t < 10; t++)
+            {
+                if (t == 5)
+                    break;
+                Console.WriteLine("T Result is: {0}", t);
+            }
+            Console.WriteLine("-----------------------");
+            // You can also exit from a for loop by using the break keyword
+            for (int y = 0, u = 0; y + u < 5; y++, u++)
+                Console.WriteLine("Y;U Result First: {0}, Second: {1}", y, u);
+            Console.WriteLine("-----------------------");*/
+            #endregion
+            Console.WriteLine("= = = = = = = For Each Loops = = = = = = =");
+            #region ForEachLoops
+            #endregion
+            Console.WriteLine("= = = = = = = While Loops = = = = = = =");
+            #region WhileLoops
+            #endregion
+            Console.WriteLine("= = = = = = = Do While Loops = = = = = = =");
+            #region DoWhileLoops
+            #endregion
+            Console.WriteLine("= = = = = = = If & Else Statement = = = = = = =");
+            #region If&ElseStatement
             /*int n;
             Console.WriteLine("Demeli 0 dan 100 e qeder eded daxil edin .");
             n = int.Parse(Console.ReadLine());
@@ -40,38 +130,39 @@ namespace SelfPractise
                 Console.WriteLine("20den boyukdur");
             }*/
             #endregion
-            #region SwitchStatementPractise
-            /*switch la practise demeli user dan reqem sorus eger 42 yazsa yazsin ki senden yoxdu ama basqa reqem yazsa desin ki agilli ol*/
-            /*int x;
-            Console.WriteLine("0 dan 10 e qeder eded daxil edin ");
-            x = int.Parse(Console.ReadLine());
-            switch (x)
+            Console.WriteLine("= = = = = = = Switch Statement = = = = = = =");
+            #region SwitchStatement
+            // switch la practise demeli user dan reqem sorus eger 42 yazsa yazsin ki senden yoxdu ama basqa reqem yazsa desin ki agilli ol
+            /*int i;
+            Console.WriteLine("Write a Number from zero to ten");
+            i = int.Parse(Console.ReadLine());
+            switch (i)
             {
                 case 5:
-                    Console.WriteLine("reqem 5 dir");
+                    Console.WriteLine("Number is 5");
                     break;
                 case 6:
-                    Console.WriteLine("reqem 6 dir");
+                    Console.WriteLine("Number is 6");
                     break;
                 default:
-                    Console.WriteLine("yoe qeqes o del");
+                    Console.WriteLine("You are stupid, Because you don't write my chosen numbers :)");
                     break;
-            }*/
+            }
 
-            /*int z;
-            Console.WriteLine(" odd or even pls check");
-            z = int.Parse(Console.ReadLine());
-            switch (z % 2)
+            int o;
+            Console.WriteLine("Odd or Even pls check");
+            o = int.Parse(Console.ReadLine());
+            switch (o % 2)
             {
                 case 0:
-                    Console.WriteLine($"is {z} even value");
+                    Console.WriteLine($"is {o} even value");
                     break;
                 case 1:
-                    Console.WriteLine($"is {z} odd value");
-                    break ;
-            }*/
+                    Console.WriteLine($"is {o} odd value");
+                    break;
+            }
 
-            /*Console.WriteLine("Wriite switch:");
+            Console.WriteLine("Write Switch:");
             string statement = Console.ReadLine();
             switch (statement)
             {
@@ -87,150 +178,73 @@ namespace SelfPractise
                 default:
                     Console.WriteLine("This is not a switch");
                     break;
-            }*/
+            }
 
-            /*int t;
-            Console.WriteLine("Nese yaz");
-            t = int.Parse(Console.ReadLine());
-            switch (t)
+            int p;
+            Console.WriteLine("Write something");
+            p = int.Parse(Console.ReadLine());
+            switch (p)
             {
                 case 1:
-                    Console.WriteLine("reqem 1 dir");
+                    Console.WriteLine("Number is 1");
                     break;
                 case 2:
-                    Console.WriteLine("reqem 2 dir");
+                    Console.WriteLine("Number is 2");
                     break;
                 case 3:
                 case 6:
-                    Console.WriteLine("reqem 3 ve ya 6 dir");
+                    Console.WriteLine("Number is 3 or 6");
                     break;
                 default:
-                    Console.WriteLine("yoe qeqes o del");
+                    Console.WriteLine("You are stupid, Because you don't write my chosen numbers :)");
                     break;
-            }*/
+            }
 
-            /*int u;
-            Console.WriteLine("Nese yaz");
-            u = int.Parse(Console.ReadLine());
-            switch (u)
+            int a;
+            Console.WriteLine("Write something");
+            a = int.Parse(Console.ReadLine());
+            switch (a)
             {
                 case 10:
-                    Console.WriteLine("reqem 10 dir");
-                    switch (u-3)
+                    Console.WriteLine("Number is 10");
+                    switch (a - 3)
                     {
                         case 7:
-                            Console.WriteLine("daxil etdiyini eded -3 edende 7 qaldi");
-                            switch (u - 4)
+                            Console.WriteLine("When chosen number -3, Result is 7");
+                            switch (a - 4)
                             {
                                 case 3:
-                                    Console.WriteLine(" -4 edende 3 qaldi");
+                                    Console.WriteLine("When chosen number - 4, Result is 3");
                                     break;
                             }
                             break;
                     }
                     break;
                 case 7:
-                    Console.WriteLine("reqem 2 dir");
+                    Console.WriteLine("Number is 7");
                     break;
                 case 8:
                 case 9:
-                    Console.WriteLine("reqem 3 ve ya 6 dir");
+                    Console.WriteLine("Number is 8 or 9");
                     break;
                 default:
-                    Console.WriteLine("yoe qeqes o del");
+                    Console.WriteLine("You are stupid, Because you don't write my chosen numbers :)");
                     break;
-            }
-
-            Console.ReadKey();*/
+            }*/
             #endregion
-            #region ForLoopPractise
-            /*for (initializer; condition; iterator)
-            {
-                // code block
-            }*/
-
-            /*for (int i = 0; i < 10; i++)
-            {
-                Console.WriteLine("Value of i: {0}", i);
-            }*/
-
-            /*int i = 0;
-
-            for (; ; )
-            {
-                if (i <= 10)
-                {
-                    Console.WriteLine("Value of i: {0}", i);
-                    i++;
-                }
-                else
-                    break;
-            }*/
-
-            /* for (; ; )
-             {
-                 Console.Write(1);
-             }*/
-
-            /*for (double d = 1.01D; d < 1.10; d += 0.01D)
-            {
-                Console.WriteLine("Value of i: {0}", d);
-            }*/
-
-            /*for (int i = 10; i > 0; i--)
-            {
-                Console.WriteLine("Value of i: {0}", i);
-            }*/
-
-            /*int i = 0, j = 5;
-            for (Console.WriteLine($"Initializer: i={i}, j={j}");
-                i++ < j--;
-                Console.WriteLine($"Iterator: i={i}, j={j}"))
-            {
-            }*/
-
-            /*for (int i = 0; i < 10; i++)
-            {
-                if (i == 5)
-                    break;
-
-                Console.WriteLine("Value of i: {0}", i);
-            }*/
-
-            /*for (int i = 0, j = 0; i + j < 5; i++, j++)
-            {
-                Console.WriteLine("Value of i: {0}, J: {1} ", i, j);
-            }*/
-
-            /*for (int i = 0; i < 2; i++)
-            {
-                for (int j = i; j < 4; j++)
-                    Console.WriteLine("Value of i: {0}, J: {1} ", i, j);
-            }*/
-            /*for (int i = 0; i < 10; i++)
-            {
-                Console.WriteLine("Result is a: {0}",i);
-            }
-            Console.ReadKey();*/
-            #endregion
-            /*
-            Ref & out keyword C#
-            Methods
-            Type Casting
-            Boxing and Unboxing
-            */
-            #region Ref&OutKeyword 
-            /*int a = 5;
-            int b = 7;
+            Console.WriteLine("= = = = = = = Ref & Out Keyword = = = = = = =");
+            #region Ref&OutKeyword
+            /*int b = 5;
+            int c = 7;
 
             Console.WriteLine("with out Ref Keyword");
-            Console.WriteLine(a);
             Console.WriteLine(b);
-            ChangeNumberOne(ref a);
+            Console.WriteLine(c);
+            ChangeNumberOne(ref b);
             Console.WriteLine("- - - - - - - - - - - - - -");
             Console.WriteLine("with Ref Keyword");
-            Console.WriteLine(a);
             Console.WriteLine(b);
+            Console.WriteLine(c);
             Console.WriteLine("- - - - - - - - - - - - - -");
 
             Console.WriteLine("with Out Keyword");
@@ -238,23 +252,25 @@ namespace SelfPractise
             int NumberTwo = 42;
             var result = ChangeNumberTwo(out NumberOne, NumberTwo);
             Console.WriteLine(result);
-            Console.WriteLine(NumberOne);
-            Console.ReadKey();*/
+            Console.WriteLine(NumberOne);*/
             #endregion
+            Console.WriteLine("= = = = = = = Methods = = = = = = =");
             #region Methods
-            /*int a = 5;
+            int a = 5;
             int b = 7;
             int c = Sum(a, b);
 
             Console.WriteLine("The Value of the sum is " + c);
-            Console.ReadKey();*/
+            Console.ReadKey();
             #endregion
+            Console.WriteLine("= = = = = = = Type Casting = = = = = = =");
             #region TypeCasting
             // value typler* arasinda kecid (*eyni deyer tipne sahib)
             /*birdeki upCast, downCast sohbeti var ordada demeli kicik value
             typedan boyuye kecende upcast, boyukden kiciye downcast deyilir*/
             // Meselen:
-            /*int int_numberOne = 5;
+            /*
+            int int_numberOne = 5;
             Console.WriteLine($"{int_numberOne} IntOne");
             long long_numberOne = int_numberOne;
             Console.WriteLine($"{long_numberOne} LongOne"); // that is a upCasting
@@ -262,183 +278,52 @@ namespace SelfPractise
             long long_numberTwo = 7;
             Console.WriteLine($"{long_numberTwo} LongTwo");
             int int_numberTwo = (int)long_numberTwo;
-            Console.WriteLine($"{int_numberTwo} IntTwo");
-            Console.ReadKey();*/
+            Console.WriteLine($"{int_numberTwo} IntTwo"); // and this one is downCasting
+            */
             #endregion
-            #region Boxing and Unboxing
+            Console.WriteLine("= = = = = = = Boxing & Unboxing = = = = = = =");
+            #region Boxing&UnBoxing
             /*Demeli Boxing Unboxing prosesi beledirki, value type nin reference type a kecirende
             boxing ancaq, reference type value type a kecirende unboxing*/
             // Meselen:
-            /*int int_NumberThree = 7;
+            /*
+            int int_NumberThree = 7;
             object obj = int_NumberThree;
             Console.WriteLine(obj); // Burda bas veren prosese boxing deyilir
             Console.WriteLine("- - - - - -");
             object objTwo = 9;
             int int_NumberFour = (int)objTwo;
             Console.WriteLine(int_NumberFour);  // Burda olan ise unboxingdir
-            Console.ReadKey();  */
-            #endregion
-            /*
-            Method Overloading burdan Overloading-e qeder oxuyun
-            String Methods
-            String Methods 2
-            Arrays
-            Duplicate values
-            */
-            #region Method Overloading
-            /*
-            Demeli method overloading methodlarin eyni addan istifade edibde ferqli funksiyalar icra etmesine deyilir
-            Bunu methodun void veya return olmasina gore yadaki parametrlerinin sayina gore ferqlendirmek olar
             */
             #endregion
-            #region String Methods
-            /*string myName = "My name is memmedEli";
-            myName = myName.ToUpper();
-            Console.WriteLine(myName);*/ // Step 1
-
-            /*string myName = "My name is NoBody";
-            myName = myName.ToLower();
-            Console.WriteLine(myName);*/ // Step 2
-
-            /*string myName = "     nameismemmedeli      ";
-            Console.WriteLine(myName);
-            myName = myName.Trim();
-            Console.WriteLine(myName);*/
-
-            /*string myName = " my name is memmedeli";
-            bool isContains = myName.Contains("elimemmed");
-            Console.WriteLine(isContains); // False*/
-
-            /*string text = "NoBody";
-            char[] charArray = text.ToCharArray();
-            foreach (var c in charArray)
-            {
-                Console.WriteLine(c);
-            }*/
-
-            /*string textT = "No Body";
-                   textT = textT.Substring(2,5);    
-            Console.WriteLine(textT);*/
-
-            /*string myName = "myName is memmefwfw";
-            bool isContains = myName.StartsWith("my");
-            Console.WriteLine(isContains);*/
-
-            /*string memmed = "memmed kartof alma armuf";
-            string[] whiteSpace = memmed.Split(' ');
-            foreach (string oZudu in whiteSpace)
-            {
-                Console.WriteLine(oZudu);
-            }*/
-
+            Console.WriteLine("= = = = = = = Method OverLoading = = = = = = =");
+            #region MethodOverLoading
+            #endregion
+            #region StringMethods
             #endregion
             #region Arrays
-            /*int[] evenNums = new int[5] { 2, 3, 4, 5, 6 };
-            string[] oddNums = new string[2] { "memmed", "kartof" };
-            // with var
-            var evenNumsTwo = new int[] { 1, 2, 3, 4 };
-            var evenNumsThree = new string[] { "memed", "kartof", "armud" };
-            // short version with crreate array
-            int[] evenNumb = new int[] { 1, 2, 4 };
-            string[] oddNumb = new string[] { "memed", "kartof", "alma" };
-            // Late initilazition 
-            int[] evennumbers;
-            evennumbers = new int[] { 1, 2, 3, 4, 5, 2, 12 };
-            // or
-            evennumbers = new int[5]; */
-
-            // accseing array elements using for loop
-            /*Console.WriteLine("kARTOF");
-            int[] eventnumbs = { 1, 2, 3 ,4 ,5, 5};
-
-            for (int i = 0; i < eventnumbs.Length; i++)
-                Console.WriteLine(eventnumbs[i]);
-
-            for (int i = 0; i < eventnumbs.Length; i++)
-                eventnumbs[i] = eventnumbs[i] + 10;
-
-            Console.WriteLine("before progess . . .");
-
-            for (int i = 0; i < eventnumbs.Length; i++)
-                Console.WriteLine(eventnumbs[i]);*/
-
-            // Ling methods
-            /*int[] nums = new int[5] { 1, 2, 3, 4, 5 };
-
-            Console.WriteLine(nums.Min());
-            Console.WriteLine(nums.Max());
-            Console.WriteLine(nums.Sum());
-            Console.WriteLine(nums.Average());*/
-
-            // Accesing foreach loop
-            int[] evenynums = { 1, 2, };
-            string[] citiesf = { "london", "baku", "canada" };
-
-            foreach (int i in evenynums)
-                Console.WriteLine(i);
-
-            foreach (string i in citiesf)
-                Console.WriteLine(i);
-
-            // accesing array methods
-
-            /*int[] nums = new int[10] { 1, 2, 3, 4, 5, 2, 4, 2, 4, 4 };*/
-
-            /*Console.WriteLine("ozudu");
-            foreach(var i in nums)
-                Console.WriteLine(i);
-
-            Array.Sort(nums); 
-            Console.WriteLine("When sorted");
-
-            foreach (var i in nums)
-                Console.WriteLine(i);*/
-
-            /*Array.Reverse(nums);
-            Console.WriteLine("When array reverse");
-
-            Array.ForEach<int>(nums, i => Console.WriteLine(i));
-            Console.WriteLine(Array.BinarySearch(nums, 10));*/
-
-            /*Console.ReadKey();*/
-
             #endregion
-            #region Dublicate values
+            #region DublicateValues
             #endregion
-            /*
-            Use Params Keyword
-            Class And Object
-            */
-            /*
-            String vs StringBuilder
-            Constructors
-            */
-            #region Constructors in C#
-            Console.WriteLine("Hello World!");
-            Customer customer = new Customer { Id = 1, FirstName = "MemmedEli", LastName = "Memmedov", City = "Baku" };
-            Customer customer3 = new Customer { };
-            customer3.Id = 1;
-            customer3.FirstName = "Yarpaq Dolmas";
-            customer3.LastName = "Gurcu Xengeli";
-            customer3.City = "Kurs";
-
-            Customer customer2 = new Customer(2, "Kelem",   "Kelemov", "Terevezistan");
-
-            Console.WriteLine(customer2.FirstName);
+            #region UseParamsKeyword
             #endregion
-            /*
-            Static keyword
-            Static keyword 2
-            */
-            /*
-            C# - ArrayList
-            */
+            #region Class&Objects
+            #endregion
+            #region String&StringBuilder
+            #endregion
+            #region Constructors
+            #endregion
+            #region StaticKeyword
+            #endregion
+            #region ArrayList
+            #endregion
+
         }
-        static void Method(int id, string firstname, string lastname, string city)
+        static int Sum(int x, int y) // Sum Method
         {
-
+            int result = x + y;
+            return result;
         }
-
         static void ChangeNumberOne(ref int number) // Ref Keyword
         {
             number = 42;
@@ -448,34 +333,5 @@ namespace SelfPractise
             NumberOne = 30;
             return NumberOne + NumberTwo;
         }
-        static int Sum(int x, int y) // Sum Method
-        {
-            int a = x;
-            int b = y;
-            int result = x + y;
-
-            return result;
-        }
-    }
-    class Customer
-    {
-        // overloading
-        public Customer()
-        {
-        }
-        // default constructor
-        public Customer(int id,string firstname,string lastname,string city)
-        {
-            Console.WriteLine("Constructornan hoqqa verrem.");
-            Id = id;
-            FirstName = firstname;
-            LastName = lastname;
-            City = city;
-        }
-
-        public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string City { get; set; }
     }
 }
