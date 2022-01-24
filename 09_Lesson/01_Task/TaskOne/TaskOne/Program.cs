@@ -130,7 +130,7 @@ namespace TaskOne
                 Console.WriteLine(i);
             }
 
-            // opsm neyse buda praktika olsin sljbgfahbak
+            // opsm neyse buda praktika olsin sljbgfahbak 
 
             #endregion
 
