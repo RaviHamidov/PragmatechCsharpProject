@@ -104,7 +104,7 @@ namespace TaskOne
 
             // Task
 
-            Stack stack = new Stack();
+            /*Stack stack = new Stack();
             stack.Push(12);
             stack.Push(122);
             stack.Push(124);
@@ -128,12 +128,11 @@ namespace TaskOne
             foreach (int i in array)
             {
                 Console.WriteLine(i);
-            }
+            }*/
 
             // opsm neyse buda praktika olsin sljbgfahbak 
 
             #endregion
-
             #region Generikolar
 
             /*List<int> list = new List<int>();
@@ -166,6 +165,25 @@ namespace TaskOne
             foreach (var item in list)
             {
                 Console.WriteLine(item + " new"); 
+            }*/
+
+            /*Dictionary<int, string> pairs = new Dictionary<int, string>()
+            {
+                {1,"memmedeli" },
+                {2,"memmedvelli" },
+                {3,"wfwfwememmedvelli" }
+            };
+
+            if (pairs.ContainsKey(1)) ;
+            {
+                Console.WriteLine(pairs[1]);
+            }
+
+            pairs[1] = "kartof";
+
+            if (pairs.ContainsKey(1)) ;
+            {
+                Console.WriteLine(pairs[1]);
             }*/
             #endregion
         }
