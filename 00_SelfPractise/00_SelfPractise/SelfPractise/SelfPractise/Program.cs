@@ -256,12 +256,12 @@ namespace SelfPractiseMark_01
             #endregion
             Console.WriteLine("= = = = = = = Methods = = = = = = =");
             #region Methods
-            int a = 5;
+            /*int a = 5;
             int b = 7;
             int c = Sum(a, b);
 
             Console.WriteLine("The Value of the sum is " + c);
-            Console.ReadKey();
+            Console.ReadKey();*/
             #endregion
             Console.WriteLine("= = = = = = = Type Casting = = = = = = =");
             #region TypeCasting
@@ -298,6 +298,11 @@ namespace SelfPractiseMark_01
             #endregion
             Console.WriteLine("= = = = = = = Method OverLoading = = = = = = =");
             #region MethodOverLoading
+            /*int a = 9;
+            int b = 6;
+            int c = Add(a, b);
+
+            Console.WriteLine("Method Overloading: " + c);*/
             #endregion
             #region StringMethods
             #endregion
@@ -332,6 +337,21 @@ namespace SelfPractiseMark_01
         {
             NumberOne = 30;
             return NumberOne + NumberTwo;
+        }
+        static int Add(int a, int b)  //two int type Parameters method  
+        {
+            int result = a + b;
+            return result;
+        }
+        static int Add(int a, int b, int c)  //three int type Parameters with same method same as above  
+        {
+            int result = a + b + c;
+            return result;
+        }
+        static float Add(float a, float b, float c, float d)  //four float type Parameters with same method same as above two method 
+        {
+            float result = a + b + c + d;
+            return result;
         }
     }
 }
