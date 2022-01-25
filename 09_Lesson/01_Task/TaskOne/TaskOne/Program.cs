@@ -56,10 +56,29 @@ namespace TaskOne
                 Console.WriteLine(item);       
             }
 
-            Console.WriteLine(queue.Dequeue());
+            Console.WriteLine(queue.Dequeue() + " bayira ");
+            Console.WriteLine(queue.Peek() + " ba qaqan bunu secir ");
 
+            Console.WriteLine("- - - - - - - - - ");
 
+            // Lifo
+            Hashtable hashtable = new Hashtable();
+            hashtable.Add(1, "Ravus");    
+            hashtable.Add(2, "Rehi");
+            hashtable.Add(3, "Elmar");
+            hashtable.Add("Memmedeli", "Elmar");
 
+            foreach (var item in hashtable)
+            {
+                Console.WriteLine(item);
+            }
+
+            foreach (DictionaryEntry item in hashtable)
+            {
+                Console.WriteLine(item.Key + "  sosial mesafe  " + item.Value);
+            }
+
+            Console.WriteLine("- - - - - - - - - ");
         }
     }
 }
