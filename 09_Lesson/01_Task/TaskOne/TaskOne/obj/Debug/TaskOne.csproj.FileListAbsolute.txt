@@ -1,0 +1,8 @@
+C:\Users\code\Desktop\Books\GitHub\PragmatechCsharpProject\09_Lesson\01_Task\TaskOne\TaskOne\bin\Debug\TaskOne.exe.config
+C:\Users\code\Desktop\Books\GitHub\PragmatechCsharpProject\09_Lesson\01_Task\TaskOne\TaskOne\bin\Debug\TaskOne.exe
+C:\Users\code\Desktop\Books\GitHub\PragmatechCsharpProject\09_Lesson\01_Task\TaskOne\TaskOne\bin\Debug\TaskOne.pdb
+C:\Users\code\Desktop\Books\GitHub\PragmatechCsharpProject\09_Lesson\01_Task\TaskOne\TaskOne\obj\Debug\TaskOne.csproj.AssemblyReference.cache
+C:\Users\code\Desktop\Books\GitHub\PragmatechCsharpProject\09_Lesson\01_Task\TaskOne\TaskOne\obj\Debug\TaskOne.csproj.SuggestedBindingRedirects.cache
+C:\Users\code\Desktop\Books\GitHub\PragmatechCsharpProject\09_Lesson\01_Task\TaskOne\TaskOne\obj\Debug\TaskOne.csproj.CoreCompileInputs.cache
+C:\Users\code\Desktop\Books\GitHub\PragmatechCsharpProject\09_Lesson\01_Task\TaskOne\TaskOne\obj\Debug\TaskOne.exe
+C:\Users\code\Desktop\Books\GitHub\PragmatechCsharpProject\09_Lesson\01_Task\TaskOne\TaskOne\obj\Debug\TaskOne.pdb
