@@ -32,10 +32,10 @@ core functionality that you can use directly in your C# program
 <img src="../Storage/ImageForDocumentation/CLI.png">
 
 ```
-                    # CIL => Common Intermediate Language                    # .exe => Executable
-                    # CLR => Common Runtime Language                         # IDE => Integrated Development Environment
-                    # CLI => Common Language Infrastructure                  # DLL => Dynamic Link Library
-                    # JIT => Just In Time
+    # CIL => Common Intermediate Language                    # .exe => Executable
+    # CLR => Common Runtime Language                         # IDE => Integrated Development Environment
+    # CLI => Common Language Infrastructure                  # DLL => Dynamic Link Library
+    # JIT => Just In Time
 ```
 
 Before Common Intermediate Language (CIL) code can be executed, it must first be 
